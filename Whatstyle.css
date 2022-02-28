@@ -1,0 +1,161 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container-body {
+  width: 100%;
+  height: 100%;
+}
+
+nav .whatsup {
+  background-color: #128c7e;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+nav .whatsup .title {
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: none;
+  line-height: 10px;
+  padding-left: 1%;
+}
+
+nav .whatsup .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 5rem;
+  padding: 1rem;
+}
+
+nav .state {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #128c7e;
+  color: #d4d4d4;
+  width: 90%;
+  padding-right: 10%;
+  padding-left: 5%;
+}
+
+nav .camera {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #128c7e;
+  color: #d4d4d4;
+}
+
+nav .camera .cameicon {
+  width: 10%;
+  padding-left: 1%;
+}
+
+main {
+  width: 100%;
+  height: calc( 100% - 5rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+main .photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 93%;
+  height: 100%;
+}
+
+main .photos .face {
+  height: 10%;
+  width: 100%;
+  margin: 0.5%;
+  margin-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: solid 1px #000000;
+}
+
+main .photos .face .profile {
+  height: 100%;
+  width: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .photos .face .profile .image {
+  height: 100%;
+  width: 100%;
+  background-image: url("image/mona.jpg");
+  background-size: cover;
+  border-radius: 5vh;
+}
+
+main .hours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 7%;
+  height: 100%;
+  margin-top: 0.5%;
+}
+
+main .hours .vist {
+  height: 10%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 13.5%;
+}
+/*# sourceMappingURL=Whatstyle.css.map */
