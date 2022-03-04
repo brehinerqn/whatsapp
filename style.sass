@@ -81,11 +81,12 @@ main
     flex-flow: row
     overflow-y: scroll
 
-    .photos
+    .pg1
         display: flex
         flex-flow: column
-        width: 100%
+        width: 0%
         height: 100%
+        opacity: 0
 
         .face
             width: 100%
@@ -110,7 +111,7 @@ main
                 display: flex
                 flex-flow: column
                 small
-                    white-space: nowrap;
+                    white-space: nowrap
                 div
                     display: flex
                     flex-flow: row                
@@ -142,5 +143,82 @@ main
                         border-radius: 100%
                         width: 4rem
                         height: 4rem
-.linea
+    .pg2
+        display: flex
+        flex-flow: column
+        width: 100%
+        height: 100%
+
+        .face
+            width: 100%
+            display: flex
+            padding: 0.5rem
+
+            .space
+                display: flex
+                flex: 1
+                justify-content: space-between
+                line-height: 2
+                small
+                    
+                    font-size: 1rem
+                              
+            .material-icons
+                width: 1.5rem
+                height: 1rem
+                font-size: 0.8rem
+                text-align: center
+            .vist
+                display: flex
+                flex-flow: column
+                small
+                    white-space: nowrap
+                div
+                    display: flex
+                    flex-flow: row                
+                .material-icons
+                    color: gray
+                    font-size: 30px
+                    
+                button
+                    border: none
+                    border-radius: 100%
+                    height: 20px
+                    width: 20px
+                    background: #128c7e
+                    color: white
+                    margin-left: 10px
+            .profile
+
+                height: 100%
+                width: 5rem
+                display: flex
+
+                .image
+                    // border: solid 1px blue
+                    height: 4rem
+                    width: 4rem
+                    border: none
+                    background-size: cover
+                    background-color: #ffffff
+                    .material-icons 
+                       display: inline-block
+                       position: relative
+                       bottom: 30px
+                       left: 20px
+                       font-size: 18px
+                       color: #128c7e
+                       background-color: #fff
+                       border-radius: 100%
+                       height: 20px
+                       width: 20px
+                       align-items: center
+                       justify-content: center
+                       align-content: center
+                       
+                    img
+                        border-radius: 100%
+                        width: 4rem
+                        height: 4rem
+    .linea
     border-bottom: 3px solid #ffffff
