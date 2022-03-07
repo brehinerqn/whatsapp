@@ -246,7 +246,20 @@ nav .camera .state article a {
   overflow: scroll;
 }
 
-#main #states .face {
+#main .pg1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 0%;
+  height: 100%;
+  opacity: 0;
+}
+
+#main .pg1 .face {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -254,7 +267,7 @@ nav .camera .state article a {
   padding: 0.5rem;
 }
 
-#main #states .face .space {
+#main .pg1 .face .space {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -267,18 +280,18 @@ nav .camera .state article a {
   line-height: 2;
 }
 
-#main #states .face .space small {
+#main .pg1 .face .space small {
   font-size: 1rem;
 }
 
-#main #states .face .material-icons {
+#main .pg1 .face .material-icons {
   width: 1.5rem;
   height: 1rem;
   font-size: 0.8rem;
   text-align: center;
 }
 
-#main #states .face .vist {
+#main .pg1 .face .vist {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -288,11 +301,11 @@ nav .camera .state article a {
           flex-flow: column;
 }
 
-#main #states .face .vist small {
+#main .pg1 .face .vist small {
   white-space: nowrap;
 }
 
-#main #states .face .vist div {
+#main .pg1 .face .vist div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -302,14 +315,14 @@ nav .camera .state article a {
           flex-flow: row;
 }
 
-#main #states .face .vist .material-icons {
+#main .pg1 .face .vist .material-icons {
   color: gray;
   font-size: 18px;
   -webkit-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
 
-#main #states .face .vist button {
+#main .pg1 .face .vist button {
   border: none;
   border-radius: 100%;
   height: 20px;
@@ -319,7 +332,7 @@ nav .camera .state article a {
   margin-left: 10px;
 }
 
-#main #states .face .profile {
+#main .pg1 .face .profile {
   height: 100%;
   width: 5rem;
   display: -webkit-box;
@@ -327,7 +340,7 @@ nav .camera .state article a {
   display: flex;
 }
 
-#main #states .face .profile .image {
+#main .pg1 .face .profile .image {
   height: 4rem;
   width: 4rem;
   border: none;
@@ -335,7 +348,7 @@ nav .camera .state article a {
   background-color: #fff;
 }
 
-#main #states .face .profile .image img {
+#main .pg1 .face .profile .image img {
   border-radius: 100%;
   width: 4rem;
   height: 4rem;
@@ -464,5 +477,131 @@ nav .camera .state article a {
 
 .linea {
   border-bottom: 3px solid #ffffff;
+}
+
+.linea .pg2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 100%;
+  height: 100%;
+}
+
+.linea .pg2 .face {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.linea .pg2 .face .space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 2;
+}
+
+.linea .pg2 .face .space small {
+  font-size: 1rem;
+}
+
+.linea .pg2 .face .material-icons {
+  width: 1.5rem;
+  height: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.linea .pg2 .face .vist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.linea .pg2 .face .vist small {
+  white-space: nowrap;
+}
+
+.linea .pg2 .face .vist div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+.linea .pg2 .face .vist .material-icons {
+  color: gray;
+  font-size: 30px;
+}
+
+.linea .pg2 .face .vist button {
+  border: none;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  background: #128c7e;
+  color: white;
+  margin-left: 10px;
+}
+
+.linea .pg2 .face .profile {
+  height: 100%;
+  width: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.linea .pg2 .face .profile .image {
+  height: 4rem;
+  width: 4rem;
+  border: none;
+  background-size: cover;
+  background-color: #ffffff;
+}
+
+.linea .pg2 .face .profile .image .material-icons {
+  display: inline-block;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  font-size: 18px;
+  color: #128c7e;
+  background-color: #fff;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.linea .pg2 .face .profile .image img {
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
 }
 /*# sourceMappingURL=style.css.map */
