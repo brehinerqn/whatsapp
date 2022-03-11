@@ -125,174 +125,6 @@ nav .camera .state article a {
           flex-flow: row;
 }
 
-#main #calls {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  width: 100%;
-  height: calc( 100vh - 5rem);
-  overflow: scroll;
-}
-
-#main #calls .face {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0.5rem;
-}
-
-#main #calls .face .space {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  line-height: 2;
-}
-
-#main #calls .face .space small {
-  font-size: 1rem;
-}
-
-#main #calls .face .material-icons {
-  width: 1.5rem;
-  height: 1rem;
-  font-size: 0.8rem;
-  text-align: center;
-}
-
-#main #calls .face .vist {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-}
-
-#main #calls .face .vist small {
-  white-space: nowrap;
-}
-
-#main #calls .face .vist div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-}
-
-#main #calls .face .vist .material-icons {
-  color: gray;
-  font-size: 18px;
-  -webkit-transform: rotateZ(45deg);
-          transform: rotateZ(45deg);
-}
-
-#main #calls .face .vist button {
-  border: none;
-  border-radius: 100%;
-  height: 20px;
-  width: 20px;
-  background: #128c7e;
-  color: white;
-  margin-left: 10px;
-}
-
-#main #calls .face .profile {
-  height: 100%;
-  width: 5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#main #calls .face .profile .image {
-  height: 4rem;
-  width: 4rem;
-  border: none;
-  background-size: cover;
-  background-color: #fff;
-}
-
-#main #calls .face .profile .image img {
-  border-radius: 100%;
-  width: 4rem;
-  height: 4rem;
-}
-
-#main #states {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  width: 100%;
-  height: calc( 100vh - 5rem);
-  overflow: scroll;
-}
-
-#main #states .face {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0.5rem;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-#main #states .face .circle {
-  background-image: url("image/a.jpeg");
-  background-size: cover;
-  border-radius: 100%;
-  height: 100px;
-  width: 100px;
-  margin: 0.5rem;
-}
-
-#main #states .face .circle .material-icons {
-  border: 2px solid red;
-  height: 2rem;
-  width: 2rem;
-  font-size: 2rem;
-  color: #128c7e;
-  position: relative;
-}
-
-#main #states .face .space {
-  width: 93%;
-}
-
-#main #states .face .space h4 {
-  margin-top: 2rem;
-}
-
-#main #states .face .material-icons {
-  margin-top: 2rem;
-  color: #128c7e;
-  font-size: 2rem;
-}
-
 #main #chats {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -408,6 +240,185 @@ nav .camera .state article a {
   height: 4rem;
 }
 
+#main #states {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 100%;
+  height: calc( 100vh - 5rem);
+  overflow: scroll;
+}
+
+#main #states .face {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+#main #states .face div {
+  padding: 0.5rem;
+}
+
+#main #states .face div .circle {
+  background-image: url("image/a.jpeg");
+  background-size: cover;
+  border-radius: 100%;
+}
+
+#main #states .face div .circle .material-icons {
+  border: 2px solid red;
+  height: 2rem;
+  width: 2rem;
+  font-size: 2rem;
+  color: #128c7e;
+  position: relative;
+}
+
+#main #states .face .space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+#main #states .face .space div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#main #states .face .space span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#main #states .face .material-icons {
+  color: #128c7e;
+  font-size: 2rem;
+}
+
+#main #calls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 100%;
+  height: calc( 100vh - 5rem);
+  overflow: scroll;
+}
+
+#main #calls .face {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5rem;
+}
+
+#main #calls .face .space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 2;
+}
+
+#main #calls .face .space small {
+  font-size: 1rem;
+}
+
+#main #calls .face .space .material-icons {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #128c7e;
+}
+
+#main #calls .face .space #cam {
+  padding: 0.6rem;
+  padding-top: 1rem;
+}
+
+#main #calls .face .space #cam .material-icons {
+  color: #128c7e;
+  font-size: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main #calls .face .space div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+#main #calls .face .profile {
+  height: 100%;
+  width: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main #calls .face .profile .image {
+  height: 4rem;
+  width: 4rem;
+  border: none;
+  background-size: cover;
+  background-color: #fff;
+}
+
+#main #calls .face .profile .image img {
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
+}
+
 #container {
   width: 100%;
   height: calc( 100% - 5rem);
@@ -416,5 +427,10 @@ nav .camera .state article a {
 
 .linea {
   border-bottom: 3px solid #ffffff;
+}
+
+.rotar {
+  -webkit-transform: rotateZ(145deg);
+          transform: rotateZ(145deg);
 }
 /*# sourceMappingURL=style.css.map */
